@@ -1,0 +1,7 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  // Static site: no Functions, no bindings. `npm run deploy` builds and uploads dist/.
+  "name": "hevy-visualizer",
+  "pages_build_output_dir": "./dist",
+  "compatibility_date": "2026-10-01"
+}
